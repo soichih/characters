@@ -28,10 +28,12 @@ app.use((err, req, res, next)=>{
     res.json(err);
 });
 
+console.log("connecting to db..");
 model.db.once('open', function() {
     app.listen(3000, () => {
         console.log("server started on localhost:3000");
     })
 });
 
+module.exports = app;
 

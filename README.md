@@ -13,3 +13,11 @@ The API server handles authentication through JWT token. UI has a hardcoded test
 The App will show all registered characters and allows administrator to create new character, and/or edit / delete existing character. The buttons are intentionally left exposed for all users so that you can simulate to see what happens if non-admin performs certain actions.
 
 I did not implement an authentication service, but you can simulate different user role by using menu options available under "Application Test" button.
+
+# test
+
+Limited amount of testing can be performed by running
+
+$ npm run test
+
+

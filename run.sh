@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /app/view
-npm install && npm run build
+npm install --production && npm run build
 
 cd /app
-npm install && ./server.js
+npm install --production && ./server.js
