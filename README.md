@@ -1,6 +1,6 @@
 # deployment
 
-Please view and run `./install.sh` to create a test mongo DB and build / start the character MVC server.
+Please view and run `./install.sh` to create a test mongo DB and build / start the character MVC server through docker.
 
 # architecture
 
